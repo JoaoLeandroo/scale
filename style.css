@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000d2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 400px;
+    border: 4px solid #0fe70f;
+    border-radius: 8px;
+    display: flex;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 8px; 
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.box img:hover {
+    transform: scale(1);
+}
